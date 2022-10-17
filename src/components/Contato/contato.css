@@ -1,0 +1,100 @@
+
+
+/* ========== CONTATO ========== */
+#contato{
+    height: 100vh;
+    margin-top: 30px;
+  /*  border-bottom: 1px solid var(--base-color);*/
+  }
+  
+  #div-titulo-contato{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  #div-titulo-contato h2{
+    font-size: 40px;
+    font-weight: var(--fonte-peso-padrao);
+    color: var(--base-color);
+  }
+  
+  #div-main{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  #div-redes{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+  }
+  
+  #forms-titulo-contato{
+    text-align: center;
+  }
+  
+  #forms-titulo-contato h3{
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  #forms-titulo-contato h3 span{
+    color: var(--base-color);
+  }
+  
+  #div-icons-contato{
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .icons-contato{
+    width: 55px;
+    color: var(--base-color);
+    margin-right: 2.93rem;
+  }
+  
+  #div-img-meme{
+    width: 100%;
+  }
+  
+  #img-meme{
+    width: 30rem;
+    height: 20rem;
+    margin-top: 20px;
+  }
+  
+  #div-form{
+    background-color: var(--base-color);
+    width: 30rem;
+    border-radius: 15px;
+    text-align: center;
+    color: var(--cor-branco);
+    height: 80vh;
+  }
+  
+  #div-titulo{
+    font-size: 20px;
+    margin: 30px 0 40px 0;
+  }
+  
+  .input-lovepets{
+    border-radius: 15px;
+    height: 20px;
+    border: none;
+  }
+  
+  .input-lovepets[name="nome"]{
+    margin: 39px 0;
+  }
+  
+  .input-lovepets[name="enviar"]{
+    width: 150px;
+    cursor: pointer;
+    /* height: 15px; */
+  }
