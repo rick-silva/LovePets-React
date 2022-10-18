@@ -1,6 +1,9 @@
 
 import '../../assets/css/global.css'
 import './servicos.css'
+import ImgDog from '../../assets/img/dog.jpg'
+import ImgCat from '../../assets/img/cat.jpg'
+import ImgVeterinarian from '../../assets/img/veterinarian.jpg'
 
 export const Servicos = () =>{
     return(
@@ -15,17 +18,17 @@ export const Servicos = () =>{
             </div>
 
             <div className="div-servico">
-                <img src="src/assets/img/dog.jpg"/>
+                <img src={ImgDog}/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br/> do eiusmod tempor incididunt ut labore et dolore magna <br/> aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br/> ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/> Duis aute irure dolor in reprehenderit in voluptate velit esse <br/>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br/> cupidatat non proident, sunt in culpa qui officia deserunt <br/> mollit anim id est laborum.</p>
             </div>
 
             <div class="div-servico">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br/> do eiusmod tempor incididunt ut labore et dolore magna <br/> aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br/> ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/> Duis aute irure dolor in reprehenderit in voluptate velit esse <br/>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br/> cupidatat non proident, sunt in culpa qui officia deserunt <br/> mollit anim id est laborum.</p>
-                <img src="src/assets/img/cat.jpg"/>
+                <img src={ImgCat}/>
             </div>
 /
             <div className="div-servico">
-                <img src="src/assets/img/veterinarian.jpg"/>
+                <img src={ImgVeterinarian}/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br/> do eiusmod tempor incididunt ut labore et dolore magna <br/> aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br/> ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/> Duis aute irure dolor in reprehenderit in voluptate velit esse <br/>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br/> cupidatat non proident, sunt in culpa qui officia deserunt <br/> mollit anim id est laborum.</p>
             </div>
 
