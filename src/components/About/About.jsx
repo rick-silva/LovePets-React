@@ -1,12 +1,13 @@
 // import '../../assets/css/global.css'
 import './about.css'
+import ImgFamily from '../../assets/img/family.jpg'
 
 export const About = () => {
     return(
         <div id="sobre">
             <div id="div-sobre">
                 <div id="img-sobre">
-                    <img id="img-family" src='src/assets/img/family.jpg'/>
+                    <img id="img-family" src={ImgFamily}/>
                 </div>
                 
 
