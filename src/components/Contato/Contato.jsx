@@ -1,10 +1,10 @@
 
 import '../../assets/css/global.css'
 import './contato.css'
-import facebookIcon from 'src/assets/icons/PNG/facebook.png'
-import instagramIcon from 'src/assets/icons/PNG/instagram.png'
-import twitterIcon from 'src/assets/icons/PNG/twitter.png'
-import whatsappIcon from 'src/assets/icons/PNG/whatsapp.png' 
+import facebookIcon from '../../assets/icons/PNG/facebook.png'
+import instagramIcon from '../../assets/icons/PNG/instagram.png'
+import twitterIcon from '../../assets/icons/PNG/twitter.png'
+import whatsappIcon from '../../assets/icons/PNG/whatsapp.png' 
 import Dogmeme from '../../assets/img/meme.jpg'
 
 export const Contato = () =>{
