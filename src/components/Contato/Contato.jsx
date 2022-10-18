@@ -1,6 +1,10 @@
 
 import '../../assets/css/global.css'
 import './contato.css'
+import facebookIcon from 'src/assets/icons/PNG/facebook.png'
+import instagramIcon from 'src/assets/icons/PNG/instagram.png'
+import twitterIcon from 'src/assets/icons/PNG/twitter.png'
+import whatsappIcon from 'src/assets/icons/PNG/whatsapp.png' 
 import Dogmeme from '../../assets/img/meme.jpg'
 
 export const Contato = () =>{
@@ -16,10 +20,10 @@ export const Contato = () =>{
                         <h3>Tem alguma duvida sobre a <br/><span>Love</span>Pets?<br/> Manda pra gente!</h3>
                     </div>
                     <div id="div-icons-contato">
-                        <a href="https://www.facebook.com/" target="_blank"><img className="icons-contato" src="src/assets/icons/PNG/facebook.png"/> </a>
-                        <a href="https://www.instagram.com/" target="_blank"><img className="icons-contato" src="src/assets/icons/PNG/instagram.png"/> </a>
-                        <a href="https://twitter.com/login?lang=pt" target="_blank"><img className="icons-contato" src="src/assets/icons/PNG/twitter.png"/> </a>
-                        <a href="" ><img className="icons-contato" src="src/assets/icons/PNG/whatsapp.png"/> </a>
+                        <a href="https://www.facebook.com/" target="_blank"><img className="icons-contato" src={facebookIcon}/> </a>
+                        <a href="https://www.instagram.com/" target="_blank"><img className="icons-contato" src={instagramIcon}/> </a>
+                        <a href="https://twitter.com/login?lang=pt" target="_blank"><img className="icons-contato" src={twitterIcon}/> </a>
+                        <a href="" ><img className="icons-contato" src={whatsappIcon}/> </a>
                     </div>
                     <div id="div-img-meme">
                         <img id="img-meme" src={Dogmeme} width="250px"/>
